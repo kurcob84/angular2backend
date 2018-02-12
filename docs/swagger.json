@@ -15,6 +15,26 @@
     "https"
   ],
   "paths": {
+    "/city/logout": {
+      "get": {
+        "tags": [
+          "city"
+        ],
+        "summary": "Logs out current logged in user session",
+        "description": "",
+        "operationId": "logoutUser",
+        "produces": [
+          "application/xml",
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "default": {
+            "description": "successful operation"
+          }
+        }
+      }
+    },
     "/user/login": {
       "get": {
         "tags": [
