@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Experience;
+use App\Models\Misc\Experience;
 
 class ExperienceTableSeeder extends Seeder {
 

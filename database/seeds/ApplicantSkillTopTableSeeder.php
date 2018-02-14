@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\ApplicantSkillTop;
+use App\Models\Applicant\ApplicantSkillTop;
 
 class ApplicantSkillTopTableSeeder extends Seeder {
 

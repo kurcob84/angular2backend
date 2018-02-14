@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\ContentParent;
+use App\Models\Misc\ContentParent;
 
 class ContentParentTableSeeder extends Seeder {
 

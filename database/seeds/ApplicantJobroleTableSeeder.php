@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\ApplicantJobrole;
+use App\Models\Applicant\ApplicantJobrole;
 
 class ApplicantJobroleTableSeeder extends Seeder {
 

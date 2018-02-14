@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Jobtype;
+use App\Models\Job\Jobtype;
 
 class JobtypeTableSeeder extends Seeder {
 

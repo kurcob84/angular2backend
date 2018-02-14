@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\JobLanguage;
+use App\Models\Job\JobLanguage;
 
 class JobLanguageTableSeeder extends Seeder {
 

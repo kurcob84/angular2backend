@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\ApplicantJobtype;
+use App\Models\Applicant\ApplicantJobtype;
 
 class ApplicantJobtypeTableSeeder extends Seeder {
 
@@ -28,7 +28,7 @@ class ApplicantJobtypeTableSeeder extends Seeder {
         // Tester
         ApplicantJobtype::create(array(
             'applicant_id' => 2,
-            'jobtype_id' => 4
+            'jobtype_id' => 3
         ));
     }
 

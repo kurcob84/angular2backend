@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\LanguageSkill;
+use App\Models\Misc\LanguageSkill;
 
 class LanguageSkillTableSeeder extends Seeder {
 

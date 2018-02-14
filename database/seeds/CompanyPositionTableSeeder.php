@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\CompanyPosition;
+use App\Models\Company\CompanyPosition;
 
 class CompanyPositionTableSeeder extends Seeder {
 
