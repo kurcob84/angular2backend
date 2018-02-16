@@ -71,52 +71,32 @@ $api->version('v1', function ($api) {
         //City
         $api->post('city',                  'App\Http\Controllers\Misc\CityController@create');
         $api->get('city',                   'App\Http\Controllers\Misc\CityController@index');
-        $api->get('city/{id}',              'App\Http\Controllers\Misc\CityController@show');
-        $api->delete('city/{id}',           'App\Http\Controllers\Misc\CityController@destroy');
-        $api->put('city/{id}',              'App\Http\Controllers\Misc\CityController@update');
+        $api->delete('city',                'App\Http\Controllers\Misc\CityController@destroy');
+        $api->put('city',                   'App\Http\Controllers\Misc\CityController@update');
     
         //Benefit
         $api->post('benefit',               'App\Http\Controllers\Misc\BenefitController@create');
         $api->get('benefit',                'App\Http\Controllers\Misc\BenefitController@index');
-        $api->get('benefit/{id}',           'App\Http\Controllers\Misc\BenefitController@show');
-        $api->delete('benefit/{id}',        'App\Http\Controllers\Misc\BenefitController@destroy');
-        $api->put('benefit/{id}',           'App\Http\Controllers\Misc\BenefitController@update');
-    
-        //Education
-        $api->post('education',             'App\Http\Controllers\Misc\EducationController@create');
-        $api->get('education',              'App\Http\Controllers\Misc\EducationController@index');
-        $api->get('education/{id}',         'App\Http\Controllers\Misc\EducationController@show');
-        $api->delete('education/{id}',      'App\Http\Controllers\Misc\EducationController@destroy');
-        $api->put('education/{id}',         'App\Http\Controllers\Misc\EducationController@update');
-        
-        
-        //Experience
-        $api->post('experience',            'App\Http\Controllers\Misc\ExperienceController@create');
-        $api->get('experience',             'App\Http\Controllers\Misc\ExperienceController@index');
-        $api->get('experience/{id}',        'App\Http\Controllers\Misc\ExperienceController@show');
-        $api->delete('experience/{id}',     'App\Http\Controllers\Misc\ExperienceController@destroy');
-        $api->put('experience/{id}',        'App\Http\Controllers\Misc\ExperienceController@update');
+        $api->delete('benefit',             'App\Http\Controllers\Misc\BenefitController@destroy');
+        $api->put('benefit',                'App\Http\Controllers\Misc\BenefitController@update');
         
         //Language
         $api->post('language',              'App\Http\Controllers\Misc\LanguageController@create');
         $api->get('language',               'App\Http\Controllers\Misc\LanguageController@index');
-        $api->get('language/{id}',          'App\Http\Controllers\Misc\LanguageController@show');
-        $api->delete('language/{id}',       'App\Http\Controllers\Misc\LanguageController@destroy');
-        $api->put('language/{id}',          'App\Http\Controllers\Misc\LanguageController@update');
+        $api->delete('language',            'App\Http\Controllers\Misc\LanguageController@destroy');
+        $api->put('language',               'App\Http\Controllers\Misc\LanguageController@update');
         
         //Position
         $api->post('position',              'App\Http\Controllers\Misc\PositionController@create');
         $api->get('position',               'App\Http\Controllers\Misc\PositionController@index');
-        $api->get('position/{id}',          'App\Http\Controllers\Misc\PositionController@show');
-        $api->delete('position/{id}',       'App\Http\Controllers\Misc\PositionController@destroy');
-        $api->put('position/{id}',          'App\Http\Controllers\Misc\PositionController@update');
+        $api->delete('position',            'App\Http\Controllers\Misc\PositionController@destroy');
+        $api->put('position',               'App\Http\Controllers\Misc\PositionController@update');
         
         //Skill
         $api->post('skill',                 'App\Http\Controllers\Misc\SkillController@create');
         $api->get('skill',                  'App\Http\Controllers\Misc\SkillController@index');
-        $api->get('skill/{id}',             'App\Http\Controllers\Misc\SkillController@show');
-        $api->delete('skill/{id}',          'App\Http\Controllers\Misc\SkillController@destroy');
-        $api->put('skill/{id}',             'App\Http\Controllers\Misc\SkillController@update');
+        $api->delete('skill',               'App\Http\Controllers\Misc\SkillController@destroy');
+        $api->put('skill',                  'App\Http\Controllers\Misc\SkillController@update');
         
     });
     
