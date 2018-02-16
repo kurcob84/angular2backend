@@ -11,6 +11,24 @@ $api->version('v1', function ($api) {
     $api->group(['prefix' => 'auth' ], function($api) {
         
         ##############################
+        ######## Auth
+        ##############################
+        $api->group(['prefix' => 'admin'], function($api) {
+            $api->post('login',             'App\Http\Controllers\Applicant\ApplicantController@create');
+            $api->post('logout',            'App\Http\Controllers\Applicant\ApplicantController@create');
+        });
+        $api->group(['prefix' => 'applicant'], function($api) {
+            $api->post('login',             'App\Http\Controllers\Applicant\ApplicantController@create');
+            $api->post('logout',            'App\Http\Controllers\Applicant\ApplicantController@create');
+            $api->post('register',          'App\Http\Controllers\Applicant\ApplicantController@create');
+        });
+        $api->group(['prefix' => 'company'], function($api) {
+            $api->post('login',             'App\Http\Controllers\Applicant\ApplicantController@create');
+            $api->post('logout',            'App\Http\Controllers\Applicant\ApplicantController@create');
+            $api->post('register',          'App\Http\Controllers\Applicant\ApplicantController@create');
+        });
+
+        ##############################
         ######## Applicant
         ##############################
         
